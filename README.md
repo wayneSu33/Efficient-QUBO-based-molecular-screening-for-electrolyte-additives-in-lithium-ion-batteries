@@ -8,7 +8,7 @@ This project demonstrates a molecular screening process that combines data clust
 
 <h2 id="Folders">Folders</h2> 
 
-- **Cluster and Training**: The code file and dataset for data clustering and model training.
+- **Clustering and Training**: The code file and dataset for data clustering and model training.
 - **Solvers and results**: Contains code files for Fujitsu Digital Annealer (DA), exhaustive Search, simulated annealing (SA), and genetic algorithm (GA) to solve QUBO models.
 
 <h2 id="Dependencies">Dependencies</h2>  
