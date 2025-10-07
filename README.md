@@ -13,3 +13,20 @@ This project demonstrates a molecular screening process that combines data clust
 <br>
 
 <img src="Graphical workflow.JPG" width="1000" height="600" />
+
+<h2 id="Folders">Folders</h2> 
+
+- **Cluster and Training**: The code file and dataset for data clustering and model training.
+- **Solvers and results**: Contains code files for Fujitsu Digital Annealer (DA), exhaustive Search, simulated annealing (SA), and genetic algorithm (GA) to solve QUBO models.
+
+<h2 id="Dependencies">Dependencies</h2>  
+
+- Python >= 3.9.23
+- pandas >= 2.3.2
+- numpy >= 2.0.1
+- rdkit >= 2024.3.2
+- scikit-learn >= 1.6.1
+- matplotlib >= 3.9.2
+- pyqubo==1.5.0
+- pygad==3.3.1
+- dwave-neal==0.6.0
