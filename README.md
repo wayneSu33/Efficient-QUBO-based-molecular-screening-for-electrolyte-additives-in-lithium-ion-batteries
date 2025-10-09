@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1071698992.svg)](https://doi.org/10.5281/zenodo.17301532)
+
 <h2 id="Title">Efficient QUBO-based molecular screening for electrolyte additives in lithium-ion batteries</h2>
 
 **Workflow**\
