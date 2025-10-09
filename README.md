@@ -11,7 +11,7 @@ This project demonstrates a molecular screening process that combines data clust
 <h2 id="Folders">Folders</h2> 
 
 - **Clustering and Training**: The code file and dataset for data clustering and model training.
-- **Solvers and results**: Code files for exhaustive Search and genetic algorithm (GA) to find the optimal solution of the trained model. Because Digtal Annealer(DA) is the commercial solver, we provide the code to convert the QUBO model to .josn format for DA and the solutions we received from the DA server. As an alternative approach for solving the QUBO model, we employ simulated annealing (SA) implemented in the Python package “dwave-neal”.
+- **Solvers and results**: Code files for exhaustive Search and genetic algorithm (GA) to find the optimal solution of the trained model. Because Digital Annealer(DA) is the commercial solver, we provide the code to convert the QUBO model to .josn format for DA and the solutions we received from the DA server. As an alternative approach for solving the QUBO model, we employ simulated annealing (SA) implemented in the Python package “dwave-neal”.
 
 <h2 id="Dependencies">Dependencies</h2>  
 
