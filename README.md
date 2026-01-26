@@ -11,8 +11,9 @@ This project demonstrates a molecular screening process that combines data clust
 
 <h2 id="Folders">Folders</h2> 
 
-- **Clustering and Training**: The code file and dataset for data clustering, model training and group contribution method (GCM) performed by density functional theory(DFT) calculation. All the lowest unoccupied molecular orbital(LUMO) and chemical hardness values in the dataset are calculated using DFT simulation and expressed in the unit of Hartree. 
+- **Clustering and Training**: The code file and dataset for data clustering, model training and group contribution method (GCM). All the lowest unoccupied molecular orbital(LUMO) and chemical hardness values in the dataset, ALLdata.csv, are calculated using DFT simulation. 
 - **Solvers and results**: Code files for exhaustive Search and genetic algorithm(GA) to find the optimal solution of the trained model. Because Digital Annealer(DA) is the commercial solver, we provide the code to convert the QUBO model to .josn format for DA and the solutions we received from the DA server. As an alternative approach for solving the QUBO model, we employ simulated annealing (SA) implemented in the Python package “dwave-neal”.
+- **Note**: All the LUMO and chemical hardness values are presented in the unit of Hartree.
 
 <h2 id="Dependencies">Dependencies</h2>  
 
